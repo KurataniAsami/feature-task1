@@ -2,7 +2,7 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div>課題</div>
+    <div>課題1</div>
   )
 }
 
