@@ -13,7 +13,9 @@ export default function App({ posts }) {
             </div>
 
             <h3>{post.title}</h3>
-            <p>{post.content}</p>
+            <div className='line-clamp'>
+              <div dangerouslySetInnerHTML={{__html:post.content}} />
+            </div>
           </li>
         ))}
       </ul>
